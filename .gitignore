@@ -1,0 +1,25 @@
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies, caches and logs
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+*.bak
